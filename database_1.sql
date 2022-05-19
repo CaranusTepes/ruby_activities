@@ -29,3 +29,11 @@ UPDATE students SET (first_name, middle_name, last_name, age, location) = ('Ryo'
 WHERE ID = 1;
 
 DELETE FROM students where id = 6;
+
+SELECT COUNT (id) from students;
+
+SELECT * FROM students WHERE (location) = 'Manila';
+
+SELECT AVG(age) FROM students;
+
+SELECT * FROM students ORDER BY age DESC;
