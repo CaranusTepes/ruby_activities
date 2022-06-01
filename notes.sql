@@ -5,34 +5,34 @@ CREATE TABLE notes (
 );
 
 INSERT INTO notes(id, body, student_id)
-VALUES(1, "Stealth", 1)
+VALUES(1, 'Stealth', 1)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(2, "Clay", 2)
+VALUES(2, 'Clay', 2)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(3, "Guide", 3)
+VALUES(3, 'Guide', 3)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(4, "Thorne", 4)
+VALUES(4, 'Thorne', 4)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(5, "Hawk", 5)
+VALUES(5, 'Hawk', 5)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(6, "Gumshoe", 5)
+VALUES(6, 'Gumshoe', 5)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(7, "Phoenix", 1)
+VALUES(7, 'Phoenix', 1)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(8, "Sprinter", 2)
+VALUES(8, 'Sprinter', 2)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(9, "Pandemic", NULL)
+VALUES(9, 'Pandemic', NULL)
 
 INSERT INTO notes(id, body, student_id)
-VALUES(10, "Sarge", NULL)
+VALUES(10, 'Sarge', NULL)
 
 SELECT * FROM students INNER JOIN notes on students.id = notes.student_id;
 
